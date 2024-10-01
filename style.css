@@ -93,3 +93,11 @@ body {
     font-weight: normal;
 }
 
+.login {
+    background-color: lightgray;
+    margin: auto;
+    width: 30%;
+    padding:10px;
+    border-radius: 10px;
+    text-align: center;
+}
