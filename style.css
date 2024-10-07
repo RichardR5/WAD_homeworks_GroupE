@@ -128,7 +128,8 @@ a + span {
     border: none;
 }
 
-.login_form input[type=submit] {
+.login_form input[type=submit],
+.form-group input[type=submit] {
     background: darkblue;
     color: white;
     width: 30%;
@@ -147,4 +148,52 @@ a + span {
 
 ::placeholder{
     color: darkgray;
+}
+
+.post-form {
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.post-form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.post-form .form-group label {
+    width: 100px;
+}
+
+.form-group input[type="file"],
+.form-group textarea {
+    flex: 1;
+    padding: 8px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.post-form .form-group input[type=submit] {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.post-form .form-group.submit {
+    display: flex;
+    justify-content: center;
 }
