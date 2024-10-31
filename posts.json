@@ -1,0 +1,82 @@
+[
+    {
+        "postId": 1,
+        "createTime": "August 22, 2024",
+        "userId": 1,
+        "body":{
+            "image": "images/delta_keskus.png", "caption": "Delta Centre and the beautiful summer"
+        }
+    },
+    {
+        "postId": 2,
+        "createTime": "September 1, 2024",
+        "userId": 2,
+        "body":{
+            "image": "images/ut.png", "caption": "For the next 3 years I will be studying Informatics at University of Tartu!"
+        }
+    },
+    {
+        "postId": 3,
+        "createTime": "October 2, 2024",
+        "userId": 3,
+        "body":{
+            "image": "images/steak.png", "caption": "Tonight on the menu: perfect medium rare grass-fed steak"
+        }
+    },
+    {
+        "postId": 4,
+        "createTime": "October 4, 2024",
+        "userId": 1,
+        "body":{
+            "image": null, "caption": "How are you all liking WAD course so far? Been busy with the first homework but I would say it's quite nice."
+        }
+    },
+    {
+        "postId": 5,
+        "createTime": "September 9, 2024",
+        "userId": 5,
+        "body":{
+            "image": null, "caption": "FOR SALE!\nI am putting my old MacBook Pro up for sale. It was purchased in 2020, battery health at 85%. Everything works fine, just some minor scratches.\nFor more information contact me: web.application@development.ee"
+        }
+    },
+    {
+        "postId": 6,
+        "createTime": "September 5, 2024",
+        "userId": 6,
+        "body":{
+            "image": null, "caption": "Hello everyone, this is my first post here!"
+        }
+    },
+    {
+        "postId": 7,
+        "createTime": "September 29, 2024",
+        "userId": 7,
+        "body":{
+            "image": null, "caption": "Christmas is only 86 days away. #cantwait"
+        }
+    },
+    {
+        "postId": 8,
+        "createTime": "November 1, 2024",
+        "userId": 7,
+        "body":{
+            "image": null, "caption": "It is my birthday in 5 days, im turning 22 years old. Oh how time flies. I still remember how it was 2020 and we all had to quarantine due to Covid-19, feels like it was just yesterday..."
+        }
+    },
+    {
+        "postId": 9,
+        "createTime": "November 2, 2024",
+        "userId": 1,
+        "body":{
+            "image": null, "caption": "People who live in dorms - how is it like? I bet it feels good to live so close to school but do you sometimes lack peace and privacy?"
+        }
+    },
+    {
+        "postId": 10,
+        "createTime": "November 3, 2024",
+        "userId": 10,
+        "body":{
+            "image": null, "caption": "Week 9 of this semester has been conquered succesfully, got to keep up the good work as I am trying to up my GPA :)"
+        }
+    }
+]
