@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="getPosts.js" type="module"></script>
     <title>Posts</title>
 </head>
 <body>
@@ -15,76 +16,26 @@
         <a href="login.html" class="button"><img src="images/profile_pic.png" alt="Profile"></a>
     </header>
 
+    
     <div class="posts">
-        <div class="media_post">
-            <header class="post_header">
-                <img src="images/profile_pic.png" alt="Profile">
-                <div>August 22, 2024</div>
-            </header>
-            <div class="media_post_pic">
-                <img src="images/delta_keskus.png" alt="Delta Keskus">
-            </div>
-            <div class="post_footer">
-                <div>Delta Centre and the beautiful summer</div>
-                <img src="images/thumbs_up.png" alt="Thumbs up">
-            </div>
-        </div>
-
-        <div class="media_post">
-            <header class="post_header">
-                <img src="images/profile_pic.png" alt="Profile">
-                <div>September 1, 2024</div>
-            </header>
-            <div class="media_post_pic">
-                <img src="images/ut.png" alt="UT">
-            </div>
-            <div class="post_footer">
-                <div> For the next 3 years I will be studying Informatics at University of Tartu!</div>
-                <img src="images/thumbs_up.png" alt="Thumbs up"></div>
-        </div>
-
-        <div class="media_post">
-            <header class="post_header">
-                <img src="images/profile_pic.png" alt="Profile">
-                <div>October 2, 2024</div>
-            </header>
-            <div class="media_post_pic">
-                <img src="images/steak.png" alt="Steak">
-            </div>
-            <div class="post_footer">
-                <div>Tonight on the menu: perfect medium rare grass-fed steak</div>
-                <img src="images/thumbs_up.png" alt="Thumbs up">
-            </div>
-        </div>
-    </div>
-
-    <div class="posts">
-
-        <div class="media_post">
-            <header class="post_header">
-                <img src="images/profile_pic.png" alt="Profile">
-                <div>October 4, 2024</div>
-            </header>
-            <div class="post_footer">
-                <div>How are you all liking WAD course so far? Been busy with the first homework but I would say it's quite nice.</div>
-                <img src="images/thumbs_up.png" alt="Thumbs up">
-            </div>
-        </div>
-
-        <div class="media_post">
-            <header class="post_header">
-                <img src="images/profile_pic.png" alt="Profile">
-                <div>October 7, 2024</div>
-            </header>
-            <div class="post_footer">
-                <div>FOR SALE!<br>I am putting my old MacBook Pro up for sale. It was purchased in 2020, battery health at 85%. Everything works fine, just some minor scratches.<br>For more information contact me: richard-sven.rivik@ut.ee</div>
-                <img src="images/thumbs_up.png" alt="Thumbs up">
-            </div>
-        </div>
-
     </div>
 
     <footer class="header" id="footer">The best posts all in one place!</footer>
         
 </body>
+<template>
+    <div class="media_post">
+        <header class="post_header">
+            <img src="images/profile_pic.png" alt="Profile">
+            <div id="postTime"></div>
+        </header>
+        <div class="media_post_pic">
+            <img id="postImage">
+        </div>
+        <div class="post_footer">
+            <div id="postText"></div>
+            <img src="images/thumbs_up.png" alt="Thumbs up">
+        </div>
+    </div>
+</template>
 </html>
