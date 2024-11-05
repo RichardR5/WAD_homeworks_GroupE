@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="getPosts.js" type="module"></script>
+    <script src="dropdown.js" type="module"></script>
     <title>Posts</title>
 </head>
 <body>
@@ -13,7 +14,14 @@
            <span>|</span>
            <a href="addPost.html" class="button">addPost</a>
         </div>
-        <a href="login.html" class="button"><img src="images/profile_pic.png" alt="Profile"></a>
+        <div class="profile-dropdown">
+            <a href="login.html" class="button profile-pic"><img src="images/profile_pic.png" alt="Profile"></a>
+            <div class="dropdown-content">
+                <p><strong>Boi Pepperoni</strong></p>
+                <p>email@email.email</p>
+                <button>Log out</button>
+            </div>
+        </div>
     </header>
 
     
